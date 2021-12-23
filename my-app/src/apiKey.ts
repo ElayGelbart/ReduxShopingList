@@ -1,0 +1,2 @@
+const WHEATERAPIKEY = "25fc99890f3b7c2742c813d34e8c3a8e";
+export default WHEATERAPIKEY;
