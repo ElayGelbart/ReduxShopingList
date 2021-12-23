@@ -1,10 +1,10 @@
-import React from "react";
-import ProductList from "./ProductList";
+import { useSelector } from "react-redux";
+
 export default function App() {
+  const state = useSelector((state) => state);
   return (
     <div>
-      <h1>ShopList</h1>
-      <ProductList />
+      <h1>Paramedic Control</h1>
     </div>
   );
 }
